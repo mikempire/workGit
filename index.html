@@ -2,544 +2,546 @@
 <html lang="ru" class="page">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#111111">
-    <title>GridSite</title>
-    <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" charset="utf-8" async
-            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aff7f5461b568e3d942171ce0868bb4093211c1b69ccb0e48ab55b7010464ae07&amp;id=mymap&amp;lang=ru_RU&amp;apikey=<API-ключ"></script>
-    <script defer src="js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>GridSite</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aff7f5461b568e3d942171ce0868bb4093211c1b69ccb0e48ab55b7010464ae07&amp;id=mymap&amp;lang=ru_RU&amp;apikey=<API-ключ"></script>
+  <script defer src="js/main.js"></script>
 </head>
 
 <body class="page__body">
-<div class="site-container">
+  <div class="site-container">
     <header class="header">
-        <div class="container header__container">
-            <div class="header__logo">
-                <img src="./img/logo.svg" alt="">
-                <span>Ремонт жилой и коммерческой нежвижимости в Москве</span>
-            </div>
-            <div class="header__messenger">
-                <ul class="header__list list-reset">
-                    <span>Связаться с нами через месседжеры</span>
-                    <li class="header__item">
-                        <a href="" class="">
-                            <img src="./img/inst.png" alt="">
-                        </a>
-                    </li>
-                    <li class="header__item">
-                        <a href="">
-                            <img src="./img/utub.png" alt="">
-                        </a>
-                    </li>
-                    <li class="header__item">
-                        <a href="">
-                            <img src="./img/wacap.png" alt="">
-                        </a>
-                    </li>
-                    <li class="header__item">
-                        <a href="">
-                            <img src="./img/tgram.png" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="header__call">
-                <div class="header-call__inner">
-                    <a class="header__phone" href="">+7 999 900-90-90</a>
-                    <p class="header__mode">Ежедневно с 10:00 до 22:00</p>
-                </div>
-                <button class="header__btn btn-reset btn">ЗАКАЗАТЬ ЗВОНОК</button>
-            </div>
-        </div>
-    </header>
+  <div class="container header__container">
+    <div class="header__logo">
+      <img src="img/logo.svg" alt="">
+      <span>Ремонт жилой и коммерческой нежвижимости в Москве</span>
+    </div>
+    <div class="header__messenger">
+      <ul class="header__list list-reset">
+        <span>Связаться с нами через месседжеры</span>
+        <li class="header__item">
+          <a href="" class="">
+            <img src="img/inst.png" alt="">
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="">
+            <img src="img/utub.png" alt="">
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="">
+            <img src="img/wacap.png" alt="">
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="">
+            <img src="img/tgram.png" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="header__call">
+      <div class="header-call__inner">
+        <a class="header__phone" href="">+7 999 900-90-90</a>
+        <p class="header__mode">Ежедневно с 10:00 до 22:00</p>
+      </div>
+      <button class="header__btn btn-reset btn call__btn">ЗАКАЗАТЬ ЗВОНОК</button>
+    </div>
+  </div>
+</header>
 
     <main class="main">
-        <section class="hero">
-            <div class="container hero__container">
-                <h2 class="hero__title title">
-                    Выполним ремонт квартир и коммерческих помещений
-                    от 2500 руб/м2 от 17 дней
-                </h2>
+      <section class="hero">
+  <div class="container hero__container">
+    <h2 class="hero__title title">
+      Выполним ремонт квартир и коммерческих помещений
+      от 2500 руб/м2 от 17 дней
+    </h2>
 
-                <p class="hero__descr">Прописываем сроки в договоре,
-                    при срыве сроков вернем деньги
-                </p>
+    <p class="hero__descr">Прописываем сроки в договоре,
+      при срыве сроков вернем деньги
+    </p>
 
-                <div class="hero__smeta">
-                    <button class="hero__btn btn btn-reset">Рассчитать стоимость ремонта</button>
-                    <img src="./img/smeta.png" alt="" class="hero__image">
-                </div>
+    <div class="hero__smeta">
+      <a href="#calculate" class="hero__btn btn btn-reset">Рассчитать стоимость ремонта</a>
+      <img src="img/smeta.png" alt="" class="hero__image">
+    </div>
+  </div>
+  <img src="img/heroBottom.png" alt="" class="hero__bottom">
+</section>
+
+      <section class="presentation">
+  <div class="container presentation__container">
+    <h2 class="presentation__title title">С <span class="span--orange">2015 года</span> отремонтировали
+      более <span class="span--orange">160 объектов</span></h2>
+    <p class="presentation__descr">От небольших студий до ресторанов на высоте 100 метров</p>
+    <ul class="presentation__list list-reset">
+      <li class="presentation__item">
+        <div class="presentation__content">
+          <div class="presentation__content--top">
+            <h3 class="presentation__apart">Ресторан Виктория</h3>
+            <p class="presentation__size">300 м²</p>
+          </div>
+          <a href="" class="presentation__link">Подробнее</a>
+        </div>
+      </li>
+      <li class="presentation__item">
+        <div class="presentation__content">
+          <div class="presentation__content--top">
+            <h3 class="presentation__apart">1-к квартира</h3>
+            <p class="presentation__size">40 м²</p>
+          </div>
+          <a href="" class="presentation__link">Подробнее</a>
+        </div>
+      </li>
+      <li class="presentation__item">
+        <div class="presentation__content">
+          <div class="presentation__content--top">
+            <h3 class="presentation__apart">2-к квартира</h3>
+            <p class="presentation__size">60 м²</p>
+          </div>
+          <a href="" class="presentation__link">Подробнее</a>
+        </div>
+      </li>
+      <li class="presentation__item">
+        <div class="presentation__content">
+          <div class="presentation__content--top">
+            <h3 class="presentation__apart">Студия</h3>
+            <p class="presentation__size">25 м²</p>
+          </div>
+          <a href="" class="presentation__link">Подробнее</a>
+        </div>
+      </li>
+    </ul>
+    <img src="img/brushes.png" alt="" class="presentation__rightPic">
+
+    <button class="presentation__btn btn-reset btn">получить консультацию</button>
+  </div>
+</section>
+
+      <section class="tariff">
+  <div class="container tariff__container">
+    <h2 class="tariff__title title">Предлагаем самые <span class="span--orange">выгодные решения</span> для наших клиентов</h2>
+    <p class="tariff__descr">Выберите тариф, который вам подходит</p>
+    <ul class="tariff__list list-reset grid">
+      <li class="tariff__item">
+        <div class="tariff__content">
+          <div class="tariff__image">
+            <img src="img/tariff1.jpg" alt="" class="">
+          </div>
+          <h3 class="tariff__name">Тариф «Эконом» <span>от 4000 ₽/м²</span></h3>
+          <p>— Стены и обои</p>
+          <p>— Пол: Ламинат или кварцвинил</p>
+          <p>— Сан. узел — плитка</p>
+        </div>
+        <button class="tariff__btn btn btn-reset">выбрать</button>
+      </li>
+      <li class="tariff__item">
+        <div class="tariff__content">
+          <div class="tariff__image">
+            <img src="img/tariff2.jpg" alt="" class="">
+          </div>
+          <h3 class="tariff__name">Тариф «Кофморт» <span>от 6000 ₽/м²</span></h3>
+          <p>
+            — Стены и обои или покраска <br>
+            — Пол: Ламинат или кварцвинил <br>
+            — Сан. узел — плитка <br>
+            — Сантехника и электрика
+          </p>
+        </div>
+        <button class="tariff__btn btn btn-reset">выбрать</button>
+      </li>
+      <li class="tariff__item">
+        <div class="tariff__content">
+          <div class="tariff__image">
+            <img src="img/tariff3.jpg" alt="" class="">
+          </div>
+          <h3 class="tariff__name">Тариф «Евролюкс» <span>от 8000 ₽/м²</span></h3>
+          <p>
+            — Стены и обои или покраска, декоративная штукатурка <br>
+            — Пол: Ламинат, кварцвинил или кранитная плитка <br>
+            — Сан. узел — плитка <br>
+            — Сантехника и электрика <br>
+            — Натяжные потолки <br>
+            — Монтаж люстр, раковин,
+            санфоянсоф и т. д.
+          </p>
+        </div>
+        <button class="tariff__btn btn btn-reset">выбрать</button>
+      </li>
+    </ul>
+    <div class="tariff__link">
+      <a href="" class="">Индивидуальный проект узнать подробнее</a>
+    </div>
+  </div>
+</section>
+
+      <section class="calculate" id="calculate">
+  <div class="container calculate__container">
+    <h2 class="calculate__title title">Рассчитайте стоимость ремонта <span class="span--orange">за 1 минуту</span> с точностью 99%</h2>
+    <div class="calculate__inner">
+      <div class="calculate__price price">
+        <form action="" class="price__form">
+          <div class="price__type">
+            <p class="=">Тип площади</p>
+            <select name="type">
+              <option value="lives">Жилая</option>
+              <option value="no-lives">Не жилая</option>
+            </select>
+          </div>
+          <div class="price__tariff">
+            <p class="">Тариф</p>
+            <select name="tariff">
+              <option value="economy">Эконом</option>
+              <option value="premium">Премиум</option>
+            </select>
+          </div>
+          <div class="price__square">
+            <p class="">Площадь, м2</p>
+            <input type="text" class="" id="input-0">
+            <div id="slider"> </div>
+            <div class="slider__rang">
+                <p>0</p>
+                <p>300</p>
             </div>
-            <img src="./img/heroBottom.png" alt="" class="hero__bottom">
-        </section>
+            <p>Предварительный расчёт:</p>
+            <strong>Итого: 620000 руб.</strong>
+          </div>
 
-        <section class="presentation">
-            <div class="container presentation__container">
-                <h2 class="presentation__title title">С <span class="span--orange">2015 года</span> отремонтировали
-                    более <span class="span--orange">160 объектов</span></h2>
-                <p class="presentation__descr">От небольших студий до ресторанов на высоте 100 метров</p>
-                <ul class="presentation__list list-reset">
-                    <li class="presentation__item">
-                        <div class="presentation__content">
-                            <div class="presentation__content--top">
-                                <h3 class="presentation__apart">Ресторан Виктория</h3>
-                                <p class="presentation__size">300 м²</p>
-                            </div>
-                            <a href="" class="presentation__link">Подробнее</a>
-                        </div>
-                    </li>
-                    <li class="presentation__item">
-                        <div class="presentation__content">
-                            <div class="presentation__content--top">
-                                <h3 class="presentation__apart">1-к квартира</h3>
-                                <p class="presentation__size">40 м²</p>
-                            </div>
-                            <a href="" class="presentation__link">Подробнее</a>
-                        </div>
-                    </li>
-                    <li class="presentation__item">
-                        <div class="presentation__content">
-                            <div class="presentation__content--top">
-                                <h3 class="presentation__apart">2-к квартира</h3>
-                                <p class="presentation__size">60 м²</p>
-                            </div>
-                            <a href="" class="presentation__link">Подробнее</a>
-                        </div>
-                    </li>
-                    <li class="presentation__item">
-                        <div class="presentation__content">
-                            <div class="presentation__content--top">
-                                <h3 class="presentation__apart">Студия</h3>
-                                <p class="presentation__size">25 м²</p>
-                            </div>
-                            <a href="" class="presentation__link">Подробнее</a>
-                        </div>
-                    </li>
-                </ul>
-                <img src="./img/brushes.png" alt="" class="presentation__rightPic">
+          <div class="price__name">
+            <p>Ваше имя</p>
+            <input type="text" class="price-input__name" name="price_name">
+            <p>Ваш телефон</p>
+            <input type="tel" class="price-input__tel" name="price_tel">
+          </div>
+          <button class="price__btn btn-reset btn" type="submit">Рассчитать точную стоимость</button>
+        </form>
+      </div>
+      <div class="calculate__image">
+        <img src="img/price.jpg" alt="">
+      </div>
+    </div>
 
-                <button class="presentation__btn btn-reset btn">получить консультацию</button>
-            </div>
-        </section>
+  </div>
+</section>
 
-        <section class="tariff">
-            <div class="container tariff__container">
-                <h2 class="tariff__title title">Предлагаем самые <span class="span--orange">выгодные решения</span> для
-                    наших клиентов</h2>
-                <p class="tariff__descr">Выберите тариф, который вам подходит</p>
-                <ul class="tariff__list list-reset grid">
-                    <li class="tariff__item">
-                        <div class="tariff__content">
-                            <div class="tariff__image">
-                                <img src="./img/tariff1.jpg" alt="" class="">
-                            </div>
-                            <h3 class="tariff__name">Тариф «Эконом» <span>от 4000 ₽/м²</span></h3>
-                            <p>— Стены и обои</p>
-                            <p>— Пол: Ламинат или кварцвинил</p>
-                            <p>— Сан. узел — плитка</p>
-                        </div>
-                        <button class="tariff__btn btn btn-reset">выбрать</button>
-                    </li>
-                    <li class="tariff__item">
-                        <div class="tariff__content">
-                            <div class="tariff__image">
-                                <img src="./img/tariff2.jpg" alt="" class="">
-                            </div>
-                            <h3 class="tariff__name">Тариф «Кофморт» <span>от 6000 ₽/м²</span></h3>
-                            <p>
-                                 — Стены и обои или покраска <br>
-                                 — Пол: Ламинат или кварцвинил <br>
-                                 — Сан. узел — плитка <br>
-                                 — Сантехника и электрика
-                            </p>
-                        </div>
-                        <button class="tariff__btn btn btn-reset">выбрать</button>
-                    </li>
-                    <li class="tariff__item">
-                        <div class="tariff__content">
-                            <div class="tariff__image">
-                                <img src="./img/tariff3.jpg" alt="" class="">
-                            </div>
-                            <h3 class="tariff__name">Тариф «Евролюкс» <span>от 8000 ₽/м²</span></h3>
-                            <p>
-                                 — Стены и обои или покраска, декоративная штукатурка <br>
-                                 — Пол: Ламинат, кварцвинил или кранитная плитка <br>
-                                 — Сан. узел — плитка <br>
-                                 — Сантехника и электрика <br>
-                                 — Натяжные потолки <br>
-                                 — Монтаж люстр, раковин,
-                                санфоянсоф и т. д.
-                            </p>
-                        </div>
-                        <button class="tariff__btn btn btn-reset">выбрать</button>
-                    </li>
-                </ul>
-                <div class="tariff__link">
-                    <a href="" class="">Индивидуальный проект узнать подробнее</a>
-                </div>
-            </div>
-        </section>
+      <section class="benefits">
+  <div class="container benefits__container">
+    <h2 class="benefits__title title">Почему нам <span class="span--orange">доверяют?</span></h2>
+    <div class="benefits__grid">
+      <ul class="benefits__list grid list-reset">
+        <li class="benefits__item">
+          <div class="benefits__image">
+            <img src="img/benefit1.png" alt="">
+          </div>
+          <div class="benefits__text">
+            <p class="benefits__feature">Опыт</p>
+            <p class="benefits__descr">Опыт наших мастеров более 10 лет</p>
+          </div>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__image">
+            <img src="img/benefit2.png" alt="">
+          </div>
+          <div class="benefits__text">
+            <p class="benefits__feature">Гарантии</p>
+            <p class="benefits__descr">Даем гарантию на свои работы 2 года</p>
+          </div>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__image">
+            <img src="img/benefit3.png" alt="">
+          </div>
+          <div class="benefits__text">
+            <p class="benefits__feature">Команда</p>
+            <p class="benefits__descr">Ежеквартально наши мастера проходят профессиональную аттестацию</p>
+          </div>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__image">
+            <img src="img/benefit4.png" alt="">
+          </div>
+          <div class="benefits__text">
+            <p class="benefits__feature">Поставщики</p>
+            <p class="benefits__descr">Специальные условия от поставщиков мебели для наших клиентов</p>
+          </div>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__image">
+            <img src="img/benefit5.png" alt="">
+          </div>
+          <div class="benefits__text">
+            <p class="benefits__feature">Видеонаблюдение</p>
+            <p class="benefits__descr">Установим камеру видеонаблюдения
+              за ремонтом, в режиме реального
+              времени с компьютера или телефона</p>
+          </div>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__image">
+            <img src="img/benefit6.png" alt="">
+          </div>
+          <div class="benefits__text">
+            <p class="benefits__feature">Опыт</p>
+            <p class="benefits__descr">Опыт наших мастеров более 10 лет</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <button class="benefits__btn btn btn-reset call__btn">получить консультацию</button>
 
-        <section class="calculate">
-            <div class="container calculate__container">
-                <h2 class="calculate__title title">Рассчитайте стоимость ремонта <span
-                        class="span--orange">за 1 минуту</span> с точностью 99%</h2>
-                <div class="calculate__inner">
-                    <div class="calculate__price price">
-                        <form action="" class="price__form">
-                            <div class="price__type">
-                                <p class="=">Тип площади</p>
-                                <select name="type">
-                                    <option value="lives">Жилая</option>
-                                    <option value="no-lives">Не жилая</option>
-                                </select>
-                            </div>
-                            <div class="price__tariff">
-                                <p class="">Тариф</p>
-                                <select name="tariff">
-                                    <option value="economy">Эконом</option>
-                                    <option value="premium">Премиум</option>
-                                </select>
-                            </div>
-                            <div class="price__square">
-                                <p class="">Площадь, м2</p>
-                                <input type="text" class="" id="input-0">
-                                <div id="slider"></div>
-                                <div class="slider__rang">
-                                    <p>0</p>
-                                    <p>300</p>
-                                </div>
-                                <p>Предварительный расчёт:</p>
-                                <strong>Итого: 620000 руб.</strong>
-                            </div>
+  </div>
+</section>
 
-                            <div class="price__name">
-                                <p>Ваше имя</p>
-                                <input type="text" class="price-input__name" name="price_name" placeholder="Ваше имя">
-                                <p>Ваш телефон</p>
-                                <input type="tel" class="price-input__tel" name="price_tel">
-                            </div>
-                            <button class="price__btn btn-reset btn" type="submit">Рассчитать точную стоимость</button>
-                        </form>
-                    </div>
-                    <div class="calculate__image">
-                        <img src="./img/price.jpg" alt="">
-                    </div>
-                </div>
+      <section class="sample">
+  <img src="img/sample_head.png" alt="" class="sample__top">
+  <img src="img/sample_man.jpg" alt="" class="sample__middle">
+  <img src="img/sample.png" alt="" class="sample__shadow">
+  <img src="img/sample_bott.png" alt="" class="sample__bottom">
+  <div class="container sample__container">
+    <div class="sample__left">
+      <h2 class="sample__title">Закажите замер, а также предварительную оценку объекта <span class="span--orange">БЕСПЛАТНО</span></h2>
+      <p class="sample__descr">На бесплатном выезде инженер замерщик:</p>
+      <ul class="sample__list">
+        <li class="sample__item">Сделает точный замер</li>
+        <li class="sample__item">Сориентирует по срокам</li>
+        <li class="sample__item">Поможет определиться с видом ремонта</li>
+      </ul>
+    </div>
+    <div class="sample__right">
+      <form class="sample__form form--sample">
+        <div class="form--sample__contact">Укажите ваши контакты</div>
+        <div class="form--sample__call">и мы перезвоним вам, чтобы назначить удобное время для замера</div>
+        <input type="text" placeholder="Ваше имя" class="form--sample__input form--sample__input--name" name="sample_name">
+        <input type="tel" placeholder="Телефон" class="form--sample__input form--sample__input--tel" name="sample_tel">
+        <button class="form--sample__btn btn-reset btn">ЗАКАЗАТЬ БЕСПЛАТНЫЙ ЗАМЕР</button>
+      </form>
+    </div>
+  </div>
+</section>
 
-            </div>
-        </section>
+      <section class="instruction">
+  <div class="container instruction__container">
+    <img src="img/instruction_bottom.png" alt="" class="instruction__bottom">
+    <div class="instruction__title title"><span class="span--orange">6 шагов</span> до ремонта вашей мечты</div>
+    <ul class="instruction__list list-reset">
+      <li class="instruction__item">
+        <div class="instruction__num">
+          <p>1</p>
+        </div>
+        <div class="instruction__text">
+          <h3 class="instruction__subtitle">Заявка</h3>
+          <p class="instruction__descr">Вы оставляете заявку на сайте или по телефону.
+            Мы <br>договариваемся о встрече для точного замера и расчета стоимости</p>
+        </div>
+      </li>
+      <li class="instruction__item">
+        <div class="instruction__num">
+          <p>2</p>
+        </div>
+        <div class="instruction__text">
+          <h3 class="instruction__subtitle">Замер</h3>
+          <p class="instruction__descr">Мы выезжаем на объект, делаем все необходимые замеры</p>
+        </div>
+      </li>
+      <li class="instruction__item">
+        <div class="instruction__num">
+          <p>3</p>
+        </div>
+        <div class="instruction__text">
+          <h3 class="instruction__subtitle">Смета, договор</h3>
+          <p class="instruction__descr">Состовляем точную смету, сроки, а также график платежей</p>
+        </div>
+      </li>
+      <li class="instruction__item">
+        <div class="instruction__num">
+          <p>4</p>
+        </div>
+        <div class="instruction__text">
+          <h3 class="instruction__subtitle">Передача ключей</h3>
+          <p class="instruction__descr">После подписания договора вы передаете нам ключи, мы приступаем к работе</p>
+        </div>
+      </li>
+      <li class="instruction__item">
+        <div class="instruction__num">
+          <p>5</p>
+        </div>
+        <div class="instruction__text">
+          <h3 class="instruction__subtitle">Ремонт</h3>
+          <p class="instruction__descr">Делаем качественный ремонт, утверждая с вами каждый этап работ</p>
+        </div>
+      </li>
+      <li class="instruction__item">
+        <div class="instruction__num">
+          <p>6</p>
+        </div>
+        <div class="instruction__text">
+          <h3 class="instruction__subtitle">Принимайте работу!</h3>
+          <p class="instruction__descr">Принимайте работу! Получайте ваши ключи, а также уют в вашем доме</p>
+        </div>
+      </li>
+    </ul>
+    <button class="instruction__btn btn btn-reset call__btn">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
 
-        <section class="benefits">
-            <div class="container benefits__container">
-                <h2 class="benefits__title title">Почему нам <span class="span--orange">доверяют?</span></h2>
-                <div class="benefits__grid">
-                    <ul class="benefits__list grid list-reset">
-                        <li class="benefits__item">
-                            <div class="benefits__image">
-                                <img src="./img/benefit1.png" alt="">
-                            </div>
-                            <div class="benefits__text">
-                                <p class="benefits__feature">Опыт</p>
-                                <p class="benefits__descr">Опыт наших мастеров более 10 лет</p>
-                            </div>
-                        </li>
-                        <li class="benefits__item">
-                            <div class="benefits__image">
-                                <img src="./img/benefit2.png" alt="">
-                            </div>
-                            <div class="benefits__text">
-                                <p class="benefits__feature">Гарантии</p>
-                                <p class="benefits__descr">Даем гарантию на свои работы 2 года</p>
-                            </div>
-                        </li>
-                        <li class="benefits__item">
-                            <div class="benefits__image">
-                                <img src="./img/benefit3.png" alt="">
-                            </div>
-                            <div class="benefits__text">
-                                <p class="benefits__feature">Команда</p>
-                                <p class="benefits__descr">Ежеквартально наши мастера проходят профессиональную
-                                    аттестацию</p>
-                            </div>
-                        </li>
-                        <li class="benefits__item">
-                            <div class="benefits__image">
-                                <img src="./img/benefit4.png" alt="">
-                            </div>
-                            <div class="benefits__text">
-                                <p class="benefits__feature">Поставщики</p>
-                                <p class="benefits__descr">Специальные условия от поставщиков мебели для наших
-                                    клиентов</p>
-                            </div>
-                        </li>
-                        <li class="benefits__item">
-                            <div class="benefits__image">
-                                <img src="./img/benefit5.png" alt="">
-                            </div>
-                            <div class="benefits__text">
-                                <p class="benefits__feature">Видеонаблюдение</p>
-                                <p class="benefits__descr">Установим камеру видеонаблюдения
-                                    за ремонтом, в режиме реального
-                                    времени с компьютера или телефона</p>
-                            </div>
-                        </li>
-                        <li class="benefits__item">
-                            <div class="benefits__image">
-                                <img src="./img/benefit6.png" alt="">
-                            </div>
-                            <div class="benefits__text">
-                                <p class="benefits__feature">Опыт</p>
-                                <p class="benefits__descr">Опыт наших мастеров более 10 лет</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <button class="benefits__btn btn btn-reset">получить консультацию</button>
+  </div>
+</section>
 
-            </div>
-        </section>
+      <section class="brands">
+  <img src="img/brands_bottom.png" alt="" class="brands__bottom">
+  <img src="img/brands_bottom2.png" alt="" class="brands__bottom2">
+  <div class="container brands__container">
+    <h2 class="brands__title title">Используем метериалы от <br> <span class="span--orange">80+</span> Мировых производителей</h2>
+    <p class="brands__descr">Некоторые из них:</p>
+    <img src="img/brands.jpg" alt="" class="brands__image">
+    <button class="brands__btn btn btn-reset call__btn">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+  </div>
+</section>
 
-        <section class="sample">
-            <img src="./img/sample_head.png" alt="" class="sample__top">
-            <img src="./img/sample_man.jpg" alt="" class="sample__middle">
-            <img src="./img/sample.png" alt="" class="sample__shadow">
-            <img src="./img/sample_bott.png" alt="" class="sample__bottom">
-            <div class="container sample__container">
-                <div class="sample__left">
-                    <h2 class="sample__title">Закажите замер, а также предварительную оценку объекта <span
-                            class="span--orange">БЕСПЛАТНО</span></h2>
-                    <p class="sample__descr">На бесплатном выезде инженер замерщик:</p>
-                    <ul class="sample__list">
-                        <li class="sample__item">Сделает точный замер</li>
-                        <li class="sample__item">Сориентирует по срокам</li>
-                        <li class="sample__item">Поможет определиться с видом ремонта</li>
-                    </ul>
-                </div>
-                <div class="sample__right">
-                    <form class="sample__form form--sample">
-                        <div class="form--sample__contact">Укажите ваши контакты</div>
-                        <div class="form--sample__call">и мы перезвоним вам, чтобы назначить удобное время для замера
-                        </div>
-                        <input type="text" placeholder="Ваше имя" class="form--sample__input form--sample__input--name"
-                               name="sample_name">
-                        <input type="tel" placeholder="Телефон" class="form--sample__input form--sample__input--tel"
-                               name="sample_tel">
-                        <button class="form--sample__btn btn-reset btn">ЗАКАЗАТЬ БЕСПЛАТНЫЙ ЗАМЕР</button>
-                    </form>
-                </div>
-            </div>
-        </section>
+      <section class="payment">
+  <div class="container payment__container">
+    <div class="payment__title title">Ремонт с нами — <span class="span--orange">выгодно</span></div>
+    <div class="payment__block">
+      <div class="payment__text">
+        <p class="payment__descr">Предоставляем гибкую систему оплаты ремонта, а также беспроцентную рассрочку через банки партнеры</p>
+        <a href="#calculate" class="payment__btn btn-reset btn">рассчитать стоимость</a>
+      </div>
+      <div class="payment__image">
+        <img src="img/payment.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 
-        <section class="instruction">
-            <div class="container instruction__container">
-                <img src="/img/instruction_bottom.png" alt="" class="instruction__bottom">
-                <div class="instruction__title title"><span class="span--orange">6 шагов</span> до ремонта вашей мечты
-                </div>
-                <ul class="instruction__list list-reset">
-                    <li class="instruction__item">
-                        <div class="instruction__num">
-                            <p>1</p>
-                        </div>
-                        <div class="instruction__text">
-                            <h3 class="instruction__subtitle">Заявка</h3>
-                            <p class="instruction__descr">Вы оставляете заявку на сайте или по телефону.
-                                Мы <br>договариваемся о встрече для точного замера и расчета стоимости</p>
-                        </div>
-                    </li>
-                    <li class="instruction__item">
-                        <div class="instruction__num">
-                            <p>2</p>
-                        </div>
-                        <div class="instruction__text">
-                            <h3 class="instruction__subtitle">Замер</h3>
-                            <p class="instruction__descr">Мы выезжаем на объект, делаем все необходимые замеры</p>
-                        </div>
-                    </li>
-                    <li class="instruction__item">
-                        <div class="instruction__num">
-                            <p>3</p>
-                        </div>
-                        <div class="instruction__text">
-                            <h3 class="instruction__subtitle">Смета, договор</h3>
-                            <p class="instruction__descr">Состовляем точную смету, сроки, а также график платежей</p>
-                        </div>
-                    </li>
-                    <li class="instruction__item">
-                        <div class="instruction__num">
-                            <p>4</p>
-                        </div>
-                        <div class="instruction__text">
-                            <h3 class="instruction__subtitle">Передача ключей</h3>
-                            <p class="instruction__descr">После подписания договора вы передаете нам ключи,
-                                мы приступаем к работе</p>
-                        </div>
-                    </li>
-                    <li class="instruction__item">
-                        <div class="instruction__num">
-                            <p>5</p>
-                        </div>
-                        <div class="instruction__text">
-                            <h3 class="instruction__subtitle">Ремонт</h3>
-                            <p class="instruction__descr">Делаем качественный ремонт, утверждая с вами каждый этап
-                                работ</p>
-                        </div>
-                    </li>
-                    <li class="instruction__item">
-                        <div class="instruction__num">
-                            <p>6</p>
-                        </div>
-                        <div class="instruction__text">
-                            <h3 class="instruction__subtitle">Принимайте работу!</h3>
-                            <p class="instruction__descr">Принимайте работу! Получайте ваши ключи, а также уют в вашем
-                                доме</p>
-                        </div>
-                    </li>
-                </ul>
-                <button class="instruction__btn btn btn-reset">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+      <section class="reviews">
+  <div class="container reviews__container">
+    <div class="reviews__title title">Отзывы наших клиентов</div>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide--one">
+          <video src="video.mp4" muted playsinline></video>
+          <img src="img/swiper_bg.png" alt="">
+          <button class="slide--one__play btn-reset"></button>
+        </div>
+        <div class="swiper-slide slide--two">
+          <img src="img/swiper_bg.png" alt="">
+        </div>
+        <div class="swiper-slide slide--three">
+          <img src="img/swiper_bg.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
 
-            </div>
-        </section>
+      <section class="faq">
+  <div class="container faq__container">
+    <h2 class="faq__title title">Остались вопросы?</h2>
+    <ul class="faq__list list-reset">
+      <li class="faq-accordion">
+        <button class="faq-accordion__control btn-reset" aria-expanded="false">
+          <span class="faq-accordion__title">Сколько в среднем длится ремонт?</span>
+          <span class="faq-accordion__icon"></span>
+        </button>
+        <div class="faq-accordion__content" aria-hidden="true">
+          <p>Ответ 1</p>
+        </div>
+      </li>
+      <li class="faq-accordion">
+        <button class="faq-accordion__control btn-reset" aria-expanded="false">
+          <span class="faq-accordion__title">Как происходит оплата?</span>
+          <span class="faq-accordion__icon"></span>
+        </button>
+        <div class="faq-accordion__content" aria-hidden="true">
+          <p>А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями и всякими другими людьми</p>
+        </div>
+      </li>
+      <li class="faq-accordion">
+        <button class="faq-accordion__control btn-reset" aria-expanded="false">
+          <span class="faq-accordion__title">Как можно сэкономить на ремонте?</span>
+          <span class="faq-accordion__icon"></span>
+        </button>
+        <div class="faq-accordion__content" aria-hidden="true">
+          <p>А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями и всякими другими людьми</p>
+        </div>
+      </li>
+      <li class="faq-accordion">
+        <button class="faq-accordion__control btn-reset" aria-expanded="false">
+          <span class="faq-accordion__title">Какие гарантии на выполненную работу? </span>
+          <span class="faq-accordion__icon"></span>
+        </button>
+        <div class="faq-accordion__content" aria-hidden="true">
+          <p>А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями и всякими другими людьми</p>
+        </div>
+      </li>
+      <li class="faq-accordion">
+        <button class="faq-accordion__control btn-reset" aria-expanded="false">
+          <span class="faq-accordion__title">Когда можно вызвать замерщика? </span>
+          <span class="faq-accordion__icon"></span>
+        </button>
+        <div class="faq-accordion__content" aria-hidden="true">
+          <p>А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями и всякими другими людьми</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
-        <section class="brands">
-            <img src="./img/brands_bottom.png" alt="" class="brands__bottom">
-            <img src="./img/brands_bottom2.png" alt="" class="brands__bottom2">
-            <div class="container brands__container">
-                <h2 class="brands__title title">Используем метериалы от <br> <span class="span--orange">80+</span>
-                    Мировых производителей</h2>
-                <p class="brands__descr">Некоторые из них:</p>
-                <img src="./img/brands.jpg" alt="" class="brands__image">
-                <button class="brands__btn btn btn-reset">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
-            </div>
-        </section>
+      <section class="contacts">
+  <div class="container contacts__container">
+    <div class="contacts__text">
+      <h2 class="contacts__title title">Контактная информация</h2>
+      <p>E-mail</p>
+      <a href="mailto:info@stroy.ru">info@stroy.ru</a>
 
-        <section class="payment">
-            <div class="container payment__container">
-                <div class="payment__title title">Ремонт с нами — <span class="span--orange">выгодно</span></div>
-                <div class="payment__block">
-                    <div class="payment__text">
-                        <p class="payment__descr">Предоставляем гибкую систему оплаты ремонта, а также беспроцентную
-                            рассрочку через банки партнеры</p>
-                        <button class="payment__btn btn-reset btn">рассчитать стоимость</button>
-                    </div>
-                    <div class="payment__image">
-                        <img src="./img/payment.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
+      <p>Телефон</p>
+      <a href="tel:+79999999911">+7 999 999-99-11</a>
 
-        <section class="reviews">
-            <div class="container reviews__container">
-                <div class="reviews__title title">Отзывы наших клиентов</div>
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide--one">
-                            <video src="video.mp4" muted playsinline></video>
-                            <img src="./img/swiper_bg.png" alt="">
-                            <button class="slide--one__play btn-reset"></button>
-                        </div>
-                        <div class="swiper-slide slide--two">
-                            <img src="./img/swiper_bg.png" alt="">
-                        </div>
-                        <div class="swiper-slide slide--three">
-                            <img src="./img/swiper_bg.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-        </section>
-
-        <section class="faq">
-            <div class="container faq__container">
-                <h2 class="faq__title title">Остались вопросы?</h2>
-                <ul class="faq__list list-reset">
-                    <li class="faq-accordion">
-                        <button class="faq-accordion__control btn-reset" aria-expanded="false">
-                            <span class="faq-accordion__title">Сколько в среднем длится ремонт?</span>
-                            <span class="faq-accordion__icon"></span>
-                        </button>
-                        <div class="faq-accordion__content" aria-hidden="true">
-                            <p>Ответ 1</p>
-                        </div>
-                    </li>
-                    <li class="faq-accordion">
-                        <button class="faq-accordion__control btn-reset" aria-expanded="false">
-                            <span class="faq-accordion__title">Как происходит оплата?</span>
-                            <span class="faq-accordion__icon"></span>
-                        </button>
-                        <div class="faq-accordion__content" aria-hidden="true">
-                            <p>А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями
-                                и всякими другими людьми</p>
-                        </div>
-                    </li>
-                    <li class="faq-accordion">
-                        <button class="faq-accordion__control btn-reset" aria-expanded="false">
-                            <span class="faq-accordion__title">Как можно сэкономить на ремонте?</span>
-                            <span class="faq-accordion__icon"></span>
-                        </button>
-                        <div class="faq-accordion__content" aria-hidden="true">
-                            <p>А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями
-                                и всякими другими людьми</p>
-                        </div>
-                    </li>
-                    <li class="faq-accordion">
-                        <button class="faq-accordion__control btn-reset" aria-expanded="false">
-                            <span class="faq-accordion__title">Какие гарантии на выполненную работу? </span>
-                            <span class="faq-accordion__icon"></span>
-                        </button>
-                        <div class="faq-accordion__content" aria-hidden="true">
-                            <p>А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями
-                                и всякими другими людьми</p>
-                        </div>
-                    </li>
-                    <li class="faq-accordion">
-                        <button class="faq-accordion__control btn-reset" aria-expanded="false">
-                            <span class="faq-accordion__title">Когда можно вызвать замерщика? </span>
-                            <span class="faq-accordion__icon"></span>
-                        </button>
-                        <div class="faq-accordion__content" aria-hidden="true">
-                            <p>А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями
-                                и всякими другими людьми</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="contacts">
-            <div class="container contacts__container">
-                <div class="contacts__text">
-                    <h2 class="contacts__title title">Контактная информация</h2>
-                    <p>E-mail</p>
-                    <a href="mailto:info@stroy.ru">info@stroy.ru</a>
-
-                    <p>Телефон</p>
-                    <a href="tel:+79999999911">+7 999 999-99-11</a>
-
-                    <p>График работы</p>
-                    <span>с 8:00 до 22:00</span>
-                </div>
-                <div class="contacts__map">
-                    <div id="mymap" class="contacts__map"></div>
-                </div>
-            </div>
-        </section>
+      <p>График работы</p>
+      <span>с 8:00 до 22:00</span>
+    </div>
+    <div class="contacts__map">
+      <div id="mymap" class="contacts__map"></div>
+    </div>
+  </div>
+</section>
 
     </main>
     <footer class="footer">
-        <div class="container"></div>
-    </footer>
+  <div class="container"></div>
+</footer>
 
-</div>
+  </div>
+  <div class="overlay"></div>
+  <div class="popup__wrapper">
+    <div class="popup">
+      <div class="close_button" id="closeButton"></div>
+      <div class="popup__result">
+        <form action="" class="popup-form">
+          <p class="popup-form__text">Оставить заявку</p>
+          <label class="popup-form__label">
+            <input type="text" placeholder="Имя" class="popup-form__input popup-form__name" name="name">
+          </label>
+          <label class="popup-form__label">
+            <input type="email" placeholder="E-mail" class="popup-form__input popup-form__email" name="email">
+          </label>
+          <label class="popup-form__label">
+            <input type="tel" placeholder="Телефон" class="popup-form__input popup-form__phone" name="tel" inputmode="text">
+          </label>
+          <button type="submit" class="popup-form__submit btn-reset btn">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
